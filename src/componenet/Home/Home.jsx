@@ -35,6 +35,8 @@ import {
     SiRedux,
 } from "react-icons/si";
 import { TbApi, TbLayoutColumns, TbLayoutGrid, TbBolt } from "react-icons/tb";
+import { Contact } from "../Contact/Contact";
+import { Project } from "../project/Project";
 
 export const Home = () => {
     const skillPillClass =
@@ -182,8 +184,10 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-            
-
+        
+        {/* Project section */}
+           <Project/>
+                
             {/* Skills Section inside Home */}
             <section
                 id="skills"
@@ -520,6 +524,7 @@ export const Home = () => {
         </div>
       </div>
     </section>
+    <Contact/>
         </div>
     );
 };

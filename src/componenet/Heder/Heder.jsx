@@ -52,7 +52,7 @@ export const Heder = () => {
           to="/"
           className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold ml-1.5 md:ml-4 tracking-tight whitespace-nowrap"
         >
-          Mehedi <span className="text-blue-600">Web</span>
+          Mehedi <span className="text-blue-600">Dev</span>
         </Link>
       </div>
 

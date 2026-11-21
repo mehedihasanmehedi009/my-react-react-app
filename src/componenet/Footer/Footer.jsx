@@ -55,7 +55,7 @@ export const Footer = () => {
               onClick={scrollToTop}
               className="inline-block text-2xl sm:text-3xl font-bold text-base-content mb-3 tracking-tight"
             >
-              Mehedi <span className="text-blue-600">Web</span>
+              Mehedi <span className="text-blue-600"> Developer</span>
             </Link>
 
             <p className="text-base-content/70 text-sm sm:text-base leading-relaxed max-w-sm">
@@ -225,7 +225,8 @@ export const Footer = () => {
         {/* Bottom Copyright & Back to Top */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3 pt-6 text-center">
           <p className="text-base-content/60 text-xs sm:text-sm">
-            © {currentYear} Mehedi Web. All Rights Reserved.
+            © {currentYear} Mehedi 
+            dev. All Rights Reserved.
           </p>
 
           <div className="flex items-center gap-4">
