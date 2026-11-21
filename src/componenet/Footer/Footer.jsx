@@ -17,7 +17,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const email = "mehedihasanmehedi099@gmail.com";
-  const phone = "+8801700000000";
+  const phone = "+8801615725637";
 
   const handleCopy = (value, label) => {
     navigator.clipboard.writeText(value);
