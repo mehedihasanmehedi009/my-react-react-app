@@ -181,7 +181,7 @@ export const Contact = () => {
                       href="tel:+8801700000000"
                       className="text-sm text-slate-800 [[data-theme=dark]_&]:text-slate-200 font-medium hover:text-blue-600 [[data-theme=dark]_&]:hover:text-blue-400 transition"
                     >
-                      +8801700000000
+                      +8801615725637
                     </a>
                   </div>
                 </div>
@@ -195,7 +195,7 @@ export const Contact = () => {
               </p>
               <div className="flex flex-wrap items-center gap-2.5">
                 <a
-                  href="https://wa.me/8801700000000"
+                  href="https://wa.me/8801615725637"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="WhatsApp"
@@ -204,7 +204,7 @@ export const Contact = () => {
                   <FaWhatsapp className="text-base" />
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/share/1Lw1HMYCiC/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
@@ -213,7 +213,7 @@ export const Contact = () => {
                   <FaFacebookF className="text-sm" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mehedi-ha/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
@@ -222,7 +222,7 @@ export const Contact = () => {
                   <FaLinkedinIn className="text-sm" />
                 </a>
                 <a
-                  href="https://github.com/programmermehedi85"
+                  href="https://github.com/mehedihasanmehedi009"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="GitHub"

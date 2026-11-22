@@ -67,7 +67,7 @@ export const Footer = () => {
             {/* Social Links */}
             <div className="flex items-center gap-2.5 mt-5">
               <a
-                href="https://github.com/programmermehedi85"
+                href="https://github.com/mehedihasanmehedi009"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -78,7 +78,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/mehedi-ha/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -89,7 +89,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://facebook.com/"
+                href="https://www.facebook.com/share/1Lw1HMYCiC/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook"

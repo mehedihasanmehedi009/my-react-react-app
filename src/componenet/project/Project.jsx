@@ -2,7 +2,7 @@ import React from 'react'
 import { FaExternalLinkAlt, FaGithub, FaGlobe } from "react-icons/fa";
 export const Project = () => {
   return (
-    <div className='mt-4'>
+    <div>
         <section
       id="project"
       className="relative overflow-hidden w-full bg-white text-slate-900 [[data-theme=dark]_&]:bg-slate-950 [[data-theme=dark]_&]:text-slate-100 py-16 md:py-24 px-4 sm:px-6 border-b border-slate-200 [[data-theme=dark]_&]:border-slate-800 transition-colors duration-300"

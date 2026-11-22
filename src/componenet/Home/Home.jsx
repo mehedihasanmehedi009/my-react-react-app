@@ -54,7 +54,7 @@ export const Home = () => {
   const iconClass =
     "text-2xl text-blue-600 [[data-theme=dark]_&]:text-blue-400 group-hover:text-white transition-colors duration-300";
     return (
-        <div className=" mt-4">
+        <div >
             <section
                 id="home"
                 className="relative overflow-hidden w-full bg-white text-slate-900 [[data-theme=dark]_&]:bg-slate-950 [[data-theme=dark]_&]:text-slate-100 py-16 md:py-24 px-4 sm:px-6 border-b border-slate-200 [[data-theme=dark]_&]:border-slate-800 transition-colors duration-300"
@@ -155,7 +155,7 @@ export const Home = () => {
                         {/* Glassmorphism Action Buttons */}
                         <div className="flex flex-row flex-wrap justify-center md:justify-start gap-3 sm:gap-4">
                             <a
-                                href="https://github.com/programmermehedi85"
+                                href="https://github.com/mehedihasanmehedi009"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="flex items-center justify-center gap-2 bg-blue-600/90 hover:bg-blue-600 backdrop-blur-md border border-blue-400/40 text-white px-5 py-2.5 md:px-7 md:py-3 rounded-lg font-semibold md:font-bold text-sm md:text-lg shadow-[0_4px_15px_rgba(37,99,235,0.25)] transition-all"
@@ -187,10 +187,9 @@ export const Home = () => {
             </section>
         
         {/* Project section */}
-            // প্যারেন্ট কম্পোনেন্টে
-<div className="mt-0">
-  <Project className="mt-4" />
-</div>
+    
+  <Project  />
+                
             {/* Skills Section inside Home */}
             <section
                 id="skills"
@@ -528,6 +527,7 @@ export const Home = () => {
       </div>
     </section>
     <Contact/>
-        </div>
+    
+    </div>
     );
 };

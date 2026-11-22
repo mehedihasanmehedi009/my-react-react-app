@@ -16,7 +16,7 @@ export const Heder = () => {
   };
 
   return (
-    <div className="navbar bg-base-300 backdrop-blur-xl shadow-sm rounded-full w-full mx-auto border border-base-200/70 sticky top-3 z-50 px-2.5 sm:px-4 md:px-6">
+    <div className="navbar mb-4 bg-base-300 backdrop-blur-xl shadow-sm rounded-full w-full mx-auto border border-base-200/70 sticky top-3 z-50 px-2.5 sm:px-4 md:px-6">
       {/* Left */}
       <div className="navbar-start">
         <div className="dropdown">

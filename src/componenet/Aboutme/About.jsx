@@ -18,7 +18,7 @@ export const About = () => {
     "px-3 py-1 text-xs sm:text-sm font-medium text-slate-700 [[data-theme=dark]_&]:text-slate-200 bg-blue-50/60 [[data-theme=dark]_&]:bg-slate-800/80 border border-blue-100/80 [[data-theme=dark]_&]:border-slate-700/80 rounded-md";
 
   return (
-  <div className="mt-4">
+  <div>
       <section
       id="about"
       className="relative overflow-hidden w-full bg-white text-slate-900 [[data-theme=dark]_&]:bg-slate-950 [[data-theme=dark]_&]:text-slate-100 py-14 md:py-20 px-4 sm:px-6 border-b border-slate-200 [[data-theme=dark]_&]:border-slate-800 transition-colors duration-300"
@@ -60,7 +60,7 @@ export const About = () => {
               </a>
 
               <a
-                href="#contact"
+                href="/contact "
                 className="inline-flex items-center gap-2 bg-slate-100/90 [[data-theme=dark]_&]:bg-white/10 hover:bg-slate-200 [[data-theme=dark]_&]:hover:bg-white/20 backdrop-blur-md text-slate-800 [[data-theme=dark]_&]:text-white border border-slate-200 [[data-theme=dark]_&]:border-white/15 px-5 py-2.5 rounded-lg font-semibold text-sm sm:text-base transition-all"
               >
                 <FaEnvelope className="text-xs sm:text-sm text-blue-600 [[data-theme=dark]_&]:text-blue-400" />
