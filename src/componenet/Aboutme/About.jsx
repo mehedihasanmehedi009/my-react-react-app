@@ -18,7 +18,8 @@ export const About = () => {
     "px-3 py-1 text-xs sm:text-sm font-medium text-slate-700 [[data-theme=dark]_&]:text-slate-200 bg-blue-50/60 [[data-theme=dark]_&]:bg-slate-800/80 border border-blue-100/80 [[data-theme=dark]_&]:border-slate-700/80 rounded-md";
 
   return (
-    <section
+  <div className="mt-4">
+      <section
       id="about"
       className="relative overflow-hidden w-full bg-white text-slate-900 [[data-theme=dark]_&]:bg-slate-950 [[data-theme=dark]_&]:text-slate-100 py-14 md:py-20 px-4 sm:px-6 border-b border-slate-200 [[data-theme=dark]_&]:border-slate-800 transition-colors duration-300"
     >
@@ -221,5 +222,7 @@ export const About = () => {
         </div>
       </div>
     </section>
+    
+  </div>
   );
 };
