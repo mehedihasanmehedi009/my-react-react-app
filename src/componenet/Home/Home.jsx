@@ -37,6 +37,7 @@ import {
 import { TbApi, TbLayoutColumns, TbLayoutGrid, TbBolt } from "react-icons/tb";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../project/Project";
+import profileImg from "../../assets/Professional Portrait Cutout.png";
 
 export const Home = () => {
     const skillPillClass =
@@ -177,7 +178,7 @@ export const Home = () => {
                     <div className="relative flex justify-center items-center">
                         <div className="absolute w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 bg-blue-300/25 [[data-theme=dark]_&]:bg-blue-600/20 rounded-full blur-2xl"></div>
                         <img
-                            src="/src/assets/Professional Portrait Cutout.png"
+                            src={profileImg}
                             alt="Mehedi Hasan Profile Picture"
                             className="relative z-10 w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 object-cover object-top rounded-full border-8 border-white [[data-theme=dark]_&]:border-slate-800 ring-4 ring-slate-200 [[data-theme=dark]_&]:ring-blue-500/30 shadow-xl float-animation"
                         />
@@ -186,8 +187,10 @@ export const Home = () => {
             </section>
         
         {/* Project section */}
-           <Project/>
-                
+            // প্যারেন্ট কম্পোনেন্টে
+<div className="mt-0">
+  <Project className="mt-4" />
+</div>
             {/* Skills Section inside Home */}
             <section
                 id="skills"

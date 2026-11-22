@@ -8,6 +8,7 @@ import {
   FaFacebookF,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import profileImg from "../../assets/Professional Portrait Cutout.png";
 
 export const About = () => {
   const cardClass =
@@ -120,7 +121,7 @@ export const About = () => {
           <div className="md:col-span-5 flex justify-center md:justify-end">
             <div className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-full p-2.5 bg-blue-100/70 [[data-theme=dark]_&]:bg-blue-600/20 backdrop-blur-md border border-blue-200/70 [[data-theme=dark]_&]:border-blue-500/30 shadow-lg">
               <img
-                src="/src/assets/Professional Portrait Cutout.png"
+               src={profileImg}
                 alt="Mehedi Hasan"
                 className="w-full h-full object-cover object-top rounded-full bg-white [[data-theme=dark]_&]:bg-slate-900"
               />
