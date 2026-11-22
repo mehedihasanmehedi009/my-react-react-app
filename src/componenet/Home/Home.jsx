@@ -19,12 +19,12 @@ import {
     FaLayerGroup,
     FaGlobe,
     FaNpm,
-  FaBolt,
-  FaRocket,
-  FaRegCommentDots,
-  FaRegCheckCircle,
+    FaBolt,
+    FaRocket,
+    FaRegCommentDots,
+    FaRegCheckCircle,
 } from "react-icons/fa";
- 
+
 import {
     SiTailwindcss,
     SiExpress,
@@ -41,18 +41,18 @@ import profileImg from "../../assets/Professional Portrait Cutout.png";
 
 export const Home = () => {
     const skillPillClass =
-    "skill inline-flex items-center gap-2 text-sm font-medium bg-blue-50/60 [[data-theme=dark]_&]:bg-slate-800/80 text-slate-700 [[data-theme=dark]_&]:text-slate-200 border border-blue-100/80 [[data-theme=dark]_&]:border-slate-700/80 px-3 py-1.5 rounded-lg hover:border-blue-400 [[data-theme=dark]_&]:hover:border-blue-500 transition";
+        "skill inline-flex items-center gap-2 text-sm font-medium bg-blue-50/60 [[data-theme=dark]_&]:bg-slate-800/80 text-slate-700 [[data-theme=dark]_&]:text-slate-200 border border-blue-100/80 [[data-theme=dark]_&]:border-slate-700/80 px-3 py-1.5 rounded-lg hover:border-blue-400 [[data-theme=dark]_&]:hover:border-blue-500 transition";
 
-  const skillCardClass =
-    "bg-white/75 [[data-theme=dark]_&]:bg-slate-900/75 backdrop-blur-lg p-7 sm:p-8 rounded-2xl border border-slate-200/80 [[data-theme=dark]_&]:border-slate-800/90 shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-1 transition-all duration-300";
+    const skillCardClass =
+        "bg-white/75 [[data-theme=dark]_&]:bg-slate-900/75 backdrop-blur-lg p-7 sm:p-8 rounded-2xl border border-slate-200/80 [[data-theme=dark]_&]:border-slate-800/90 shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-1 transition-all duration-300";
     const cardClass =
-    "group bg-white/75 [[data-theme=dark]_&]:bg-slate-900/75 backdrop-blur-lg p-7 sm:p-8 rounded-2xl border border-slate-200/80 [[data-theme=dark]_&]:border-slate-800/90 shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-1 transition-all duration-300";
+        "group bg-white/75 [[data-theme=dark]_&]:bg-slate-900/75 backdrop-blur-lg p-7 sm:p-8 rounded-2xl border border-slate-200/80 [[data-theme=dark]_&]:border-slate-800/90 shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-1 transition-all duration-300";
 
-  const iconBoxClass =
-    "w-14 h-14 bg-blue-50/90 [[data-theme=dark]_&]:bg-blue-950/60 border border-blue-200/70 [[data-theme=dark]_&]:border-blue-800/70 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors duration-300";
+    const iconBoxClass =
+        "w-14 h-14 bg-blue-50/90 [[data-theme=dark]_&]:bg-blue-950/60 border border-blue-200/70 [[data-theme=dark]_&]:border-blue-800/70 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors duration-300";
 
-  const iconClass =
-    "text-2xl text-blue-600 [[data-theme=dark]_&]:text-blue-400 group-hover:text-white transition-colors duration-300";
+    const iconClass =
+        "text-2xl text-blue-600 [[data-theme=dark]_&]:text-blue-400 group-hover:text-white transition-colors duration-300";
     return (
         <div >
             <section
@@ -177,19 +177,24 @@ export const Home = () => {
                     {/* Profile Image */}
                     <div className="relative flex justify-center items-center">
                         <div className="absolute w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 bg-blue-300/25 [[data-theme=dark]_&]:bg-blue-600/20 rounded-full blur-2xl"></div>
+                        {/* <img
+                            src={profileImg}
+                            alt="Mehedi Hasan Profile Picture"
+                            className="animeted-bounc z-10 w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 object-cover object-top rounded-full border-8 border-white [[data-theme=dark]_&]:border-slate-800 ring-4 ring-slate-200 [[data-theme=dark]_&]:ring-blue-500/30 shadow-xl float-animation"
+                        /> */}
                         <img
                             src={profileImg}
                             alt="Mehedi Hasan Profile Picture"
-                            className="relative z-10 w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 object-cover object-top rounded-full border-8 border-white [[data-theme=dark]_&]:border-slate-800 ring-4 ring-slate-200 [[data-theme=dark]_&]:ring-blue-500/30 shadow-xl float-animation"
+                            className="relative z-10 h-64 w-64 rounded-full border-8  border-blue-300/25 object-cover object-top shadow-xl ring-4 ring-blue-300 animate-portfolio-float sm:h-72 sm:w-72 md:h-96 md:w-96"
                         />
                     </div>
                 </div>
             </section>
-        
-        {/* Project section */}
-    
-  <Project  />
-                
+
+            {/* Project section */}
+
+            <Project />
+
             {/* Skills Section inside Home */}
             <section
                 id="skills"
@@ -399,135 +404,135 @@ export const Home = () => {
             </section>
 
             <section
-      id="why-me"
-      className="relative overflow-hidden py-16 md:py-24 px-4 sm:px-6 bg-white text-slate-900 [[data-theme=dark]_&]:bg-slate-950 [[data-theme=dark]_&]:text-slate-100 border-b border-slate-200 [[data-theme=dark]_&]:border-slate-800 transition-colors duration-300"
-    >
-      {/* Soft Blue & Slate Background Blur Shapes */}
-      <div className="pointer-events-none absolute top-12 -right-24 w-72 h-72 bg-blue-200/35 [[data-theme=dark]_&]:bg-blue-600/20 rounded-full blur-3xl"></div>
-      <div className="pointer-events-none absolute bottom-12 -left-24 w-80 h-80 bg-slate-200/50 [[data-theme=dark]_&]:bg-indigo-600/15 rounded-full blur-3xl"></div>
+                id="why-me"
+                className="relative overflow-hidden py-16 md:py-24 px-4 sm:px-6 bg-white text-slate-900 [[data-theme=dark]_&]:bg-slate-950 [[data-theme=dark]_&]:text-slate-100 border-b border-slate-200 [[data-theme=dark]_&]:border-slate-800 transition-colors duration-300"
+            >
+                {/* Soft Blue & Slate Background Blur Shapes */}
+                <div className="pointer-events-none absolute top-12 -right-24 w-72 h-72 bg-blue-200/35 [[data-theme=dark]_&]:bg-blue-600/20 rounded-full blur-3xl"></div>
+                <div className="pointer-events-none absolute bottom-12 -left-24 w-80 h-80 bg-slate-200/50 [[data-theme=dark]_&]:bg-indigo-600/15 rounded-full blur-3xl"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto">
-        {/* Section Heading */}
-        <div className="mb-12 md:mb-16 text-center md:text-left">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-blue-600 [[data-theme=dark]_&]:text-blue-400 bg-blue-50/80 [[data-theme=dark]_&]:bg-blue-950/60 backdrop-blur-sm border border-blue-200/70 [[data-theme=dark]_&]:border-blue-800/70 px-3 py-1 rounded-full mb-3">
-            Value Proposition
-          </span>
+                <div className="relative z-10 max-w-7xl mx-auto">
+                    {/* Section Heading */}
+                    <div className="mb-12 md:mb-16 text-center md:text-left">
+                        <span className="inline-block text-xs font-semibold uppercase tracking-wider text-blue-600 [[data-theme=dark]_&]:text-blue-400 bg-blue-50/80 [[data-theme=dark]_&]:bg-blue-950/60 backdrop-blur-sm border border-blue-200/70 [[data-theme=dark]_&]:border-blue-800/70 px-3 py-1 rounded-full mb-3">
+                            Value Proposition
+                        </span>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3 tracking-tight">
-            Why{" "}
-            <span className="text-blue-600 [[data-theme=dark]_&]:text-blue-400">
-              Work With Me
-            </span>
-          </h2>
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3 tracking-tight">
+                            Why{" "}
+                            <span className="text-blue-600 [[data-theme=dark]_&]:text-blue-400">
+                                Work With Me
+                            </span>
+                        </h2>
 
-          <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto md:mx-0">
-            I build scalable, high-performance applications with a strong focus on
-            clean architecture and exceptional user experience.
-          </p>
+                        <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto md:mx-0">
+                            I build scalable, high-performance applications with a strong focus on
+                            clean architecture and exceptional user experience.
+                        </p>
+                    </div>
+
+                    {/* Feature Cards */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7">
+                        {/* Card 1 */}
+                        <div className={cardClass}>
+                            <div className={iconBoxClass}>
+                                <FaLayerGroup className={iconClass} />
+                            </div>
+
+                            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
+                                End-to-End Development
+                            </h3>
+
+                            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
+                                From database architecture to pixel-perfect frontend interfaces, I
+                                handle the entire stack seamlessly.
+                            </p>
+                        </div>
+
+                        {/* Card 2 */}
+                        <div className={cardClass}>
+                            <div className={iconBoxClass}>
+                                <FaCode className={iconClass} />
+                            </div>
+
+                            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
+                                Clean, Maintainable Code
+                            </h3>
+
+                            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
+                                I write clean, organized and reusable code that is easy to read,
+                                maintain and scale.
+                            </p>
+                        </div>
+
+                        {/* Card 3 */}
+                        <div className={cardClass}>
+                            <div className={iconBoxClass}>
+                                <FaBolt className={iconClass} />
+                            </div>
+
+                            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
+                                Performance Optimized
+                            </h3>
+
+                            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
+                                I build fast, responsive applications that provide smooth and
+                                excellent user experiences.
+                            </p>
+                        </div>
+
+                        {/* Card 4 */}
+                        <div className={cardClass}>
+                            <div className={iconBoxClass}>
+                                <FaRocket className={iconClass} />
+                            </div>
+
+                            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
+                                Modern Tech Stack
+                            </h3>
+
+                            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
+                                I work with modern technologies like React.js, Node.js, Express.js
+                                and MongoDB.
+                            </p>
+                        </div>
+
+                        {/* Card 5 */}
+                        <div className={cardClass}>
+                            <div className={iconBoxClass}>
+                                <FaRegCommentDots className={iconClass} />
+                            </div>
+
+                            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
+                                Clear Communication
+                            </h3>
+
+                            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
+                                I believe in clear communication, teamwork and understanding
+                                project requirements.
+                            </p>
+                        </div>
+
+                        {/* Card 6 */}
+                        <div className={cardClass}>
+                            <div className={iconBoxClass}>
+                                <FaRegCheckCircle className={iconClass} />
+                            </div>
+
+                            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
+                                Reliable Delivery
+                            </h3>
+
+                            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
+                                I focus on delivering quality work, following project requirements
+                                and meeting agreed deadlines.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <Contact />
+
         </div>
-
-        {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7">
-          {/* Card 1 */}
-          <div className={cardClass}>
-            <div className={iconBoxClass}>
-              <FaLayerGroup className={iconClass} />
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
-              End-to-End Development
-            </h3>
-
-            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
-              From database architecture to pixel-perfect frontend interfaces, I
-              handle the entire stack seamlessly.
-            </p>
-          </div>
-
-          {/* Card 2 */}
-          <div className={cardClass}>
-            <div className={iconBoxClass}>
-              <FaCode className={iconClass} />
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
-              Clean, Maintainable Code
-            </h3>
-
-            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
-              I write clean, organized and reusable code that is easy to read,
-              maintain and scale.
-            </p>
-          </div>
-
-          {/* Card 3 */}
-          <div className={cardClass}>
-            <div className={iconBoxClass}>
-              <FaBolt className={iconClass} />
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
-              Performance Optimized
-            </h3>
-
-            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
-              I build fast, responsive applications that provide smooth and
-              excellent user experiences.
-            </p>
-          </div>
-
-          {/* Card 4 */}
-          <div className={cardClass}>
-            <div className={iconBoxClass}>
-              <FaRocket className={iconClass} />
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
-              Modern Tech Stack
-            </h3>
-
-            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
-              I work with modern technologies like React.js, Node.js, Express.js
-              and MongoDB.
-            </p>
-          </div>
-
-          {/* Card 5 */}
-          <div className={cardClass}>
-            <div className={iconBoxClass}>
-              <FaRegCommentDots className={iconClass} />
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
-              Clear Communication
-            </h3>
-
-            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
-              I believe in clear communication, teamwork and understanding
-              project requirements.
-            </p>
-          </div>
-
-          {/* Card 6 */}
-          <div className={cardClass}>
-            <div className={iconBoxClass}>
-              <FaRegCheckCircle className={iconClass} />
-            </div>
-
-            <h3 className="text-xl font-bold text-slate-900 [[data-theme=dark]_&]:text-white mb-3">
-              Reliable Delivery
-            </h3>
-
-            <p className="text-slate-600 [[data-theme=dark]_&]:text-slate-300 text-sm sm:text-base leading-relaxed">
-              I focus on delivering quality work, following project requirements
-              and meeting agreed deadlines.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <Contact/>
-    
-    </div>
     );
 };
