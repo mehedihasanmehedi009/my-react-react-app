@@ -51,8 +51,10 @@ export const Heder = () => {
         <Link
           to="/"
           className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold ml-1.5 md:ml-4 tracking-tight whitespace-nowrap"
-        >
-          Mehedi <span className="text-blue-600">Dev</span>
+        >  <span className="text-blue-600">&lt;</span>
+        <span className="text-blue-600">/&gt;</span>
+          Mehedi    <span className="text-blue-600">Dev</span>
+  
         </Link>
       </div>
 
