@@ -37,7 +37,7 @@ export const Project = () => {
           <div className="group bg-white/75 [[data-theme=dark]_&]:bg-slate-900/75 backdrop-blur-lg border border-slate-200/80 [[data-theme=dark]_&]:border-slate-800/90 rounded-2xl overflow-hidden shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] hover:-translate-y-1 transition-all duration-300 flex flex-col">
             <div className="relative w-full h-52 overflow-hidden bg-slate-100 [[data-theme=dark]_&]:bg-slate-800">
               <img
-                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+                src=""
                 alt="Web Application Dashboard"
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500"
               />
@@ -82,7 +82,7 @@ export const Project = () => {
 
               <div className="flex gap-3">
                 <a
-                  href="YOUR_GITHUB_LINK"
+                  href="https://github.com/mehedihasanmehedi009/my-assignment-9.git"
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 flex items-center justify-center gap-1.5 text-center bg-slate-900/85 [[data-theme=dark]_&]:bg-white/10 hover:bg-slate-900 [[data-theme=dark]_&]:hover:bg-white/20 backdrop-blur-md border border-slate-700/50 [[data-theme=dark]_&]:border-white/15 text-white py-2.5 rounded-lg text-sm font-semibold transition-all"
@@ -92,7 +92,7 @@ export const Project = () => {
                 </a>
 
                 <a
-                  href="YOUR_LIVE_LINK"
+                  href="https://merry-zuccutto-199cc0.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex-1 flex items-center justify-center gap-1.5 text-center bg-blue-600/90 hover:bg-blue-600 backdrop-blur-md border border-blue-400/40 text-white py-2.5 rounded-lg text-sm font-semibold shadow-[0_4px_12px_rgba(37,99,235,0.22)] transition-all"
