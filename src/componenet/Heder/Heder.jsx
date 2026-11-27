@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router";
-
+import resumePdf  from "../../assets/Md Mehedi Hasan - Resume (1).pdf"
 export const Heder = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -71,7 +71,7 @@ export const Heder = () => {
       {/* Right: Responsive Resume Button + Theme Toggle */}
       <div className="navbar-end flex items-center gap-2 md:gap-3 md:mr-2">
         <a
-          href="/Mehedi-Resume.pdf"
+          href={resumePdf}
           target="_blank"
           rel="noreferrer"
           className="btn bg-blue-600/90 hover:bg-blue-600 border-none text-white rounded-full font-semibold shadow-sm transition min-h-0 h-8 px-3 text-xs sm:h-9 sm:px-4 sm:text-sm md:h-10 md:px-5 md:text-sm lg:h-11 lg:px-6 lg:text-base"
