@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import profileImg from "../../assets/Professional Portrait Cutout.png";
-
+import resumePdf from "../../assets/Md Mehedi Hasan - Resume (1).pdf"
 export const About = () => {
   const cardClass =
     "bg-white/75 [[data-theme=dark]_&]:bg-slate-900/75 backdrop-blur-lg rounded-2xl border border-slate-200/80 [[data-theme=dark]_&]:border-slate-800/90 shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_30px_rgba(37,99,235,0.12)] p-6 transition-all duration-300";
@@ -51,7 +51,7 @@ export const About = () => {
             {/* Buttons */}
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-1">
               <a
-                href="./Mehedi-Hasan-CV.pdf"
+                href={resumePdf}
                 download
                 className="inline-flex items-center gap-2 bg-blue-600/90 hover:bg-blue-600 backdrop-blur-md border border-blue-400/40 text-white px-5 py-2.5 rounded-lg font-semibold text-sm sm:text-base shadow-[0_4px_12px_rgba(37,99,235,0.22)] transition-all"
               >
